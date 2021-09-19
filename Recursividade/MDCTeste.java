@@ -14,6 +14,7 @@ public class MDCTeste {
 		MDC calculo = new MDC();
 		
 		System.out.printf("O resultado eh %.0f", calculo.mdc(a, b));
+		System.out.println("Final ");
 		
 		sc.close();
 		
