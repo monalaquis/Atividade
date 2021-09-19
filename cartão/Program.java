@@ -42,7 +42,7 @@ public class Program {
 				System.out.println("Mes Invaliado");
 			}
 			System.out.println("Mes da Validade");
-			mesValidade = sc.nextInt();1
+			mesValidade = sc.nextInt();
 		}while (anoValidade == ano && mesValidade < mes);
 		
 		Cartao Ufersacar = new Cartao(nome, numero, codigo, anoValidade, mesValidade);
